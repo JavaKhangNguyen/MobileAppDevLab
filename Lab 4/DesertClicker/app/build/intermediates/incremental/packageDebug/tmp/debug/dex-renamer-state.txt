@@ -1,0 +1,4 @@
+#Fri Oct 06 20:54:14 ICT 2023
+base.0=D\:\\AndroidStudioTutorials\\DesertClicker\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
