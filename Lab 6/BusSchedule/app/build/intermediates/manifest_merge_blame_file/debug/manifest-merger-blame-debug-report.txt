@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2021 The Android Open Source Project
+4     Licensed under the Apache License, Version 2.0 (the "License");
+5     you may not use this file except in compliance with the License.
+6     You may obtain a copy of the License at
+7
+8          http://www.apache.org/licenses/LICENSE-2.0
+9
+10     Unless required by applicable law or agreed to in writing, software
+11     distributed under the License is distributed on an "AS IS" BASIS,
+12     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13     See the License for the specific language governing permissions and
+14     limitations under the License.
+15-->
+16<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+17    package="com.example.busschedule"
+18    android:versionCode="1"
+19    android:versionName="1.0" >
+20
+21    <uses-sdk
+22        android:minSdkVersion="19"
+22-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml
+23        android:targetSdkVersion="33" />
+23-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\1154617c68efbc948fd02fcfe7290c8e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.busschedule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\1154617c68efbc948fd02fcfe7290c8e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\1154617c68efbc948fd02fcfe7290c8e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.busschedule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\1154617c68efbc948fd02fcfe7290c8e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\1154617c68efbc948fd02fcfe7290c8e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:19:5-34:19
+32        android:name="com.example.busschedule.BusScheduleApplication"
+32-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:21:9-70
+33        android:allowBackup="true"
+33-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:20:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\1154617c68efbc948fd02fcfe7290c8e\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:22:9-43
+37        android:label="@string/app_name"
+37-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:23:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:24:9-54
+39        android:supportsRtl="true"
+39-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:25:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.BusScheduler" >
+41-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:26:9-50
+42        <activity
+42-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:27:9-33:20
+43            android:name="com.example.busschedule.MainActivity"
+43-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:27:19-70
+44            android:exported="true" >
+44-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:28:13-36
+45            <intent-filter>
+45-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:29:13-32:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:30:17-69
+46-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:30:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:31:17-77
+48-->D:\AndroidStudioTutorials\BusSchedule\app\src\main\AndroidManifest.xml:31:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3953912c43328e714e9932cfc58e14c6\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3953912c43328e714e9932cfc58e14c6\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3953912c43328e714e9932cfc58e14c6\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3953912c43328e714e9932cfc58e14c6\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3953912c43328e714e9932cfc58e14c6\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3953912c43328e714e9932cfc58e14c6\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.busschedule.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3f96ccc0604a7e606ec10eae605178dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\6c55b6ee8556db6e09c76788977fb37f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\6c55b6ee8556db6e09c76788977fb37f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\6c55b6ee8556db6e09c76788977fb37f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+69        </provider>
+70
+71        <service
+71-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-3\51be5c8d967125662e479efa2185aba9\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-3\51be5c8d967125662e479efa2185aba9\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+73            android:directBootAware="true"
+73-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-3\51be5c8d967125662e479efa2185aba9\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+74            android:exported="false" />
+74-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-3\51be5c8d967125662e479efa2185aba9\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+75    </application>
+76
+77</manifest>
